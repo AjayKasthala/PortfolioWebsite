@@ -31,7 +31,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import AK_Logo from "./AK_Logo.png";
+import AKPic from "./AKPic.png"
 import AspireSystemsLogoNoBGSmall240 from "./company/AspireSystemsLogoNoBGSmall240.png";
+import DALLE3Photo from  "./DALLE3Photo.png";
+import PortfolioPhoto from "./PortfolioPhoto.png";
+import ShirtDesignToolPhoto from "./ShirtDesignToolPhoto.png";
 
 export {
   logo,
@@ -64,5 +68,9 @@ export {
   tripguide,
   AspireSystemsLogoNoBGSmall240,
   AK_Logo,
-  
+  AKPic,
+  DALLE3Photo,
+  PortfolioPhoto,
+  ShirtDesignToolPhoto,
+
 };

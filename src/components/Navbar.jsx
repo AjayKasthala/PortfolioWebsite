@@ -3,6 +3,8 @@ import { BrowserRouter,Link,Route,Routes } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { AK_Logo, logo, menu, close } from '../assets';
+import About from './About';
+// import { About } from './About.jsx';s
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
@@ -53,7 +55,13 @@ const Navbar = () => {
           } hover:text-white text-[18px] font-medium cursor-pointer`}
           onClick={() => setActive(link.title)}
         >
+        {/* <Link to="/About" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md">
+          {link.title}
+        </Link> */}
         <a href={`#${link.id}`}>{link.title}</a>
+        {/* <Routes>
+          <Route path="/About" element={<About/>} />
+        </Routes> */}
         </li>
       ))}
     </ul>

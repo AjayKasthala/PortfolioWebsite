@@ -23,8 +23,12 @@ import {
   tripguide,
   threejs,
   AspireSystemsLogoNoBGSmall240,
-} from "../assets";
+  ShirtDesignToolPhoto,
+  DALLE3Photo,
+  PortfolioPhoto,
 
+
+} from "../assets";
 
 export const navLinks = [
   {
@@ -117,15 +121,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Engineer",
+    title: "Senior Software Engineer",
     company_name: "Aspire Systems",
     icon: AspireSystemsLogoNoBGSmall240,
     // iconBg: "#383E56",
     iconBg: "#E6DEDD",
     date: "June 2021 - March 2022",
     points: [
-      "Worked on the configuration of all the objects based on the requirements, debugged Apex Scripts, handled SFDC Administrative and Development tasks, developed scenario-based CRUD operations. ",
-      "Mentored a small team of 4 interns, contributed actively in their training process, suggested and implemented improvements to the training plan, led initiatives throughout the process for their continuous learning in SFDC Technologies.",
+      "Worked with stakeholders to understand their needs and configure Salesforce to meet those requirements. Designed and implemented Salesforce solutions. This involved creating custom objects, fields, workflows, validation rules, and customizing the interface and backend using Salesforce’s declarative and programmatic features",
+      "Mentored a team of 4 interns, contributed actively in their training process, suggested and implemented improvements to the training plan, led initiatives throughout the process for their continuous learning in SFDC Technologies",
       // "Worked in the BFSI Sector of Insurance Domain, implemented interactive components based the requirements",
       // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -135,29 +139,12 @@ const experiences = [
     company_name: "Aspire Systems",
     icon: AspireSystemsLogoNoBGSmall240,
     iconBg: "#E6DEDD",
-    date: "Oct 2020 - Jun 2021",
+    date: "Dec 2019 - Jun 2021",
     points: [
-      "Got trained in SFDC Technologies in Administration and Development such as Apex, Visualforce, Lightning Component Framework, Lightning Web Components, Lightning Data Service, SFDC Integration, Process Builders, Salesforce Flows, SOSL and SOQL.",
+      "Wrote test classes and conducted thorough testing of Salesforce functionality to ensure quality and reliability. Also debugged and resolved any issues or bugs that rose during development or post-implementation",
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "Aspire Systems",
-    icon: AspireSystemsLogoNoBGSmall240,
-    // iconBg: "#383E56",
-    iconBg: "#E6DEDD",
-    date: "Dec 2019 - Sept 2020",
-    points: [
-
-      "Acquired knowledge on cloud infrastructure and its services. Gained experience in handling various DevOps Tools.",
-      "Got exposed to scripting languages like Python and Shell. Performed various System Administration Tasks. Understood and implemented concepts of computer networks.",
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Got trained in Salesforce Administration and Development. Maintained overall configuration, created workflow rules, validation rules and ensured security such as sharing rules, user roles and setting permissions.",
+      "Acquired knowledge on cloud infrastructure and its services. got exposed to scripting languages, and performed various sytem administration tasks",
     ],
   },
   // {
@@ -178,7 +165,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Ajay proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -204,16 +191,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shirt Design Tool",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Implemented a tool to generate customizable designs that will cater to the users imagination and allows them to tailor product to precisely match their preference using the generative AI image tool.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -221,50 +208,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ShirtDesignToolPhoto,
+    source_code_link: "https://github.com/AjayKasthala/3DShirtDesignTool.git",
   },
   {
-    name: "Job IT",
+    name: "DALLE 3.0",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a social media platform for Generative Images using OpenAI. Connected it with DALL-E's image generation AI machine. Built a viewing gallery of all the images which the users have shared with the community.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "dalle",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: DALLE3Photo,
+    source_code_link: "https://github.com/AjayKasthala/Dall-E_Clone.git",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a personal portfolio website showing the details about my work experience and the details of my projects. Developed the UI using 3D Models, and incorporated them in the page.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: PortfolioPhoto,
+    source_code_link: "https://github.com/AjayKasthala/PortfolioWebsite.git",
   },
 ];
 
